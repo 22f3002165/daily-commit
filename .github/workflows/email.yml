@@ -27,7 +27,7 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
-          git config --global user.email "23f2004837@ds.study.iitm.ac.in"
+          git config --global user.email "22f3002165@ds.study.iitm.ac.in"
           git add "${{ inputs.email }}.json"
           git commit -m "Updated email file for ${{ inputs.email }}"
           git push
